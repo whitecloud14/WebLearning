@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- font-family : Dancing Script, Edu NSW ACT Foundation, Indie Flower, Roboto Condensed:ital -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Edu+NSW+ACT+Foundation:wght@400;500;600;700&family=Ibarra+Real+Nova:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="../../css/reset.css" />
+    <link rel="stylesheet" href="../../css/main.css" />
+
+    <title>HTML_Practice</title>
+  </head>
+
+  <body>
+    <div class="root">
+      <a href="/whitecloud's-blog/html/index.html" class="blog-name">
+        <h1>Whitecloud's learning blog</h1>
+      </a>
+      <h2 class="subtitle">Study with me! - Web</h2>
+      <nav class="sidebar">
+        <ul>
+          <li>
+            <a href="/whitecloud's-blog/html/post/HTML-tags.html">HTML tags</a>
+          </li>
+          <li>
+            <a href="/whitecloud's-blog/html/post/First-Step-for-CSS.html"
+              >First Step for CSS</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div class="post">
+        <h3 class="post-title">HTML tags</h3>
+        <p>
+          Though I have learned how to make web page in HTML, I didn't know what
+          roles some tags actually play in the document. As I decided to study
+          how to make web site, I took the first step with surfing some tags.
+          So, LET'S BEGIN!
+        </p>
+        <div class="hurray">
+          <p>HURRAY!</p>
+        </div>
+        <h4 class="post-title">DOCTYPE</h4>
+        <p>
+          Almost all of the HTML documents have "&lt;!DOCTYPE html&gt;" in its
+          head. I also have seen it in VS Code snippet, but didn't know what
+          role it plays. <br />
+          In short, &lt;!DOCTYPE html&gt; tag informs browser of what version is
+          the document writed in. &lt;!DOCTYPE html&gt;, in fact, is not HTML
+          tag because it should be declared in front of &lt;html&gt;. <br />
+        </p>
+        <h4 class="post-title">meta</h4>
+        <p>
+          If you use VS code and try to use snippet in it, you will see these
+          three meta tags.
+        </p>
+        <div class="meta-tags">
+          &lt;meta charset="UTF-8" /&gt; <br />
+          &lt;meta http-equiv="X-UA-Compatible" content="IE=edge" /&gt; <br />
+          &lt;meta name="viewport" content="width=device-width,
+          initial-scale=1.0"/&gt;
+        </div>
+        <p>
+          &lt;meta&gt; tag is used to describe the contents of a Web page. These
+          description is 'metadata', the data over the whole page. It should
+          always be used in &lt;head&gt; tag. <br />
+          <br />
+          &lt;meta&gt; tag mainly has 4 attributes, charset, http-equiv,
+          content, name. <br />
+          -- 'charset' attribute tells browser how to encode (or just show) the
+          contents. UTF-8 is an abbreviation of 'Universal Coded Character Set +
+          Transformation Format - 8bit' and means using unicode. <br />
+          -- 'http-equiv' attribute provides some information to web browser
+          before the contents are loaded. As you can guess by the name
+          'http-equiv(alent)', value has to be specific http header. One of its
+          many values, "X-UA-Compatible" sets version to interpret the page.
+          This and 'name' attribute is closely related to the other, 'content'
+          <br />
+          -- 'content' attribute provides detailed information about
+          'http-equiv' and 'name'. If there is attribute 'http-equiv' and its
+          value is 'X-UA-Compatible', content has to be 'IE=edge' which means
+          using the most recent version of Internet Explorer. <br />
+          -- 'name' attribute refers to setting and fix it by value of
+          'content'. HTML5 allows us to control viewport, area users can see in
+          web page, with &lt;meta&gt; element.
+        </p>
+      </div>
+      <footer class="emails">
+        <p class="myblog">Jinhyuk's Blog</p>
+        <p>letz1004@naver.com</p>
+        <p>whitecloud7196@gmail.com</p>
+      </footer>
+    </div>
+  </body>
+</html>

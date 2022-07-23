@@ -1,0 +1,240 @@
+/* index.html */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  color: rgb(230, 230, 230);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+img {
+  width: auto;
+  height: 200px;
+}
+
+.root {
+  display: grid;
+  grid-template-rows: 100px 50px auto auto;
+  grid-template-columns: 180px auto;
+  gap: 12px 12px;
+
+  background: rgb(60, 60, 60);
+}
+
+.blog-name {
+  grid-column: 1 / 3;
+
+  padding-top: 0px;
+  padding-bottom: 15px;
+
+  text-align: center;
+  font-family: "Edu NSW ACT Foundation", cursive;
+  font-size: 64px;
+  color: rgb(230, 230, 230);
+
+  background-color: rgb(0, 76, 190);
+}
+
+.subtitle {
+  grid-column: 1 / 3;
+  align-self: center;
+
+  margin-left: 12px;
+  margin-right: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  border-radius: 10px;
+  background-color: rgb(230, 230, 230);
+
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  margin-left: 12px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+
+  border-radius: 10px;
+  background-color: rgb(230, 230, 230);
+}
+
+.posts-preshow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: flex-start;
+
+  margin-right: 12px;
+}
+
+.indiv-post {
+  padding: 10px;
+
+  background-color: rgb(74, 166, 248);
+  border-radius: 30px;
+}
+
+.preshow-text {
+  text-align: center;
+  color: rgb(230, 230, 230);
+}
+
+.emails {
+  grid-column: 1 / 3;
+
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+  align-content: center;
+
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-bottom: 12px;
+
+  font-size: 15px;
+  font-family: "Ibarra Real Nova", serif;
+  color: rgb(240, 255, 255);
+}
+
+.myblog {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+}
+
+/* post */
+.post {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  color: rgb(240, 255, 255);
+}
+
+.post-title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 37px;
+  font-weight: bold;
+}
+
+.hurray {
+  align-self: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  width: 450px;
+  height: 300px;
+  border-radius: 50% 20% / 10% 40%;
+
+  background-color: rgb(74, 166, 248);
+
+  text-align: center;
+  font-family: "Edu NSW ACT Foundation", cursive;
+  font-weight: 600;
+  font-size: 80px;
+  letter-spacing: 0.1em;
+}
+
+.meta-tags {
+  align-self: center;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  border-radius: 20px;
+  text-align: left;
+  font-weight: 400;
+  letter-spacing: normal;
+  font-size: 17px;
+
+  background-color: rgb(74, 166, 248);
+}
+
+
+
+.wow {
+  align-self: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  width: 450px;
+  height: 300px;
+  border-radius: 50% 20% / 10% 40%;
+
+  background-color: rgb(74, 166, 248);
+
+  text-align: center;
+  font-family: "Edu NSW ACT Foundation", cursive;
+  font-weight: 600;
+  font-size: 80px;
+  letter-spacing: 0.25em;
+}
+
+.cascade {
+  align-self: center;
+  
+  padding: 10px1;
+  border-radius: 2px 10px 10px 20px;
+
+  background-color: rgb(74, 166, 248);
+
+  letter-spacing: 0.2em;
+}
+
+.box {
+  align-self: center;
+  flex-basis: 500px;
+  margin: 20px;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  
+  background-color: rgb(230, 230, 230);
+  border-radius: 20px;
+}
+
+.downarrow {
+  align-self: center;
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+  width: 80px;
+  height: 80px;
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- font-family : Dancing Script, Edu NSW ACT Foundation, Indie Flower, Roboto Condensed:ital -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Edu+NSW+ACT+Foundation:wght@400;500;600;700&family=Ibarra+Real+Nova:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="../../css/reset.css" />
+    <link rel="stylesheet" href="../../css/main.css" />
+
+    <title>HTML_Practice</title>
+  </head>
+
+  <body>
+    <div class="root">
+      <a href="/whitecloud's-blog/html/index.html" class="blog-name">
+        <h1>Whitecloud's learning blog</h1>
+      </a>
+      <h2 class="subtitle">Study with me! - Web</h2>
+      <nav class="sidebar">
+        <ul>
+          <li>
+            <a href="/whitecloud's-blog/html/post/HTML-tags.html">HTML tags</a>
+          </li>
+          <li>
+            <a href="/whitecloud's-blog/html/post/First-Step-for-CSS.html"
+              >First Step for CSS</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div class="post">
+        <p>
+          Web programming cannot be discussed without html, css, and javascript.
+          This time, let's learn some basic things about css.
+        </p>
+        <div class="wow">
+          <p>WOW!</p>
+        </div>
+        <h4 class="post-title">CSS</h4>
+        <p>
+          CSS is an abbreviation for 'Cascading Style Sheets'. The word
+          'cascade' is an algorithm designed to solve collision between CSS
+          rules. Usually, the feature written at last is applied to the element.
+        </p>
+        <div class="box">
+          <div class="cascade">First style</div>
+          <img
+            src="/whitecloud's-blog/img/downarrow.png"
+            alt="downarrow"
+            class="downarrow"
+          />
+          <div class="cascade">Second style</div>
+          <img
+            src="/whitecloud's-blog/img/downarrow.png"
+            alt="downarrow"
+            class="downarrow"
+          />
+          <div class="cascade" style="font-size: 30px">Last style</div>
+        </div>
+        <h4 class="post-title">How to use CSS</h4>
+        <p>
+          First, you can use &lt;style&gt; tag in &lt;head&gt; section. But I
+          prefer to use &lt;link&gt; tag instead and write your code on another
+          file. It is more easy to read and edit.
+        </p>
+        <div class="meta-tags">
+          &lt;head&gt; <br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&lt;link rel="stylesheet" href="your css file
+          path"&gt; <br />
+          &lt;/head&gt;
+        </div>
+        <p>
+          You can use CSS by following these 3 steps. <br />
+          1. select tag / id / class<br />
+          2. open block '{&nbsp;&nbsp;}'<br />
+          3. write 'attribute: value1 value2 value3....;'<br />
+          <br />
+          Because there are so many attributes and values, I'm gonna explain how
+          to use selector in the first step.
+        </p>
+        <h4 class="post-title">Selector - class</h4>
+        <p>
+          We can confront so many cases during web programming. So there are
+          also many selectors. But to make it simple, I'll show you how to use
+          the most important and widely used way, 'class'. <br />
+          <br />
+          In order to use 'class', in html, you should write like the example
+          below.
+        </p>
+        <div class="meta-tags">&lt;div class="container"&gt;</div>
+        <p>
+          You should use any other tags instead of &lt;div&gt; and also any
+          other class names instead of container. <br />
+          Next step is to select that class name in css file like this. Only
+          thing you have to do is writing '.' in front of the class name and
+          then write what features you would change.
+        </p>
+        <div class="meta-tags">
+          .container { <br />
+          &nbsp;&nbsp;&nbsp;&nbsp;attribute: value1 value2 value3...;<br />
+          }
+        </div>
+      </div>
+      <footer class="emails">
+        <p class="myblog">Jinhyuk's Blog</p>
+        <p>letz1004@naver.com</p>
+        <p>whitecloud7196@gmail.com</p>
+      </footer>
+    </div>
+  </body>
+</html>
